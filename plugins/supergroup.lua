@@ -947,93 +947,93 @@ function show_supergroup_settingsmod(msg, target)
    	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['public'] then
-			data[tostring(target)]['settings']['public'] = 'no'
+			data[tostring(target)]['settings']['public'] = '🔓'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['lock_rtl'] then
-			data[tostring(target)]['settings']['lock_rtl'] = 'no'
+			data[tostring(target)]['settings']['lock_rtl'] = '🔓'
 		end
         end
       if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['lock_tgservice'] then
-			data[tostring(target)]['settings']['lock_tgservice'] = 'no'
+			data[tostring(target)]['settings']['lock_tgservice'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['tag'] then
-			data[tostring(target)]['settings']['tag'] = 'no'
+			data[tostring(target)]['settings']['tag'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['emoji'] then
-			data[tostring(target)]['settings']['emoji'] = 'no'
+			data[tostring(target)]['settings']['emoji'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['english'] then
-			data[tostring(target)]['settings']['english'] = 'no'
+			data[tostring(target)]['settings']['english'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['fwd'] then
-			data[tostring(target)]['settings']['fwd'] = 'no'
+			data[tostring(target)]['settings']['fwd'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['reply'] then
-			data[tostring(target)]['settings']['reply'] = 'no'
+			data[tostring(target)]['settings']['reply'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['join'] then
-			data[tostring(target)]['settings']['join'] = 'no'
+			data[tostring(target)]['settings']['join'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['fosh'] then
-			data[tostring(target)]['settings']['fosh'] = 'no'
+			data[tostring(target)]['settings']['fosh'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['username'] then
-			data[tostring(target)]['settings']['username'] = 'no'
+			data[tostring(target)]['settings']['username'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['media'] then
-			data[tostring(target)]['settings']['media'] = 'no'
+			data[tostring(target)]['settings']['media'] = '🔓'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['leave'] then
-			data[tostring(target)]['settings']['leave'] = 'no'
+			data[tostring(target)]['settings']['leave'] = '🔓'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['lock_member'] then
-			data[tostring(target)]['settings']['lock_member'] = 'no'
+			data[tostring(target)]['settings']['lock_member'] = '🔓'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['all'] then
-			data[tostring(target)]['settings']['all'] = 'no'
+			data[tostring(target)]['settings']['all'] = '🔓'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['operator'] then
-			data[tostring(target)]['settings']['operator'] = 'no'
+			data[tostring(target)]['settings']['operator'] = '🔓'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['etehad'] then
-			data[tostring(target)]['settings']['etehad'] = 'no'
+			data[tostring(target)]['settings']['etehad'] = '🔓'
 		end
 	end
   local gp_type = data[tostring(msg.to.id)]['group_type']
   
   local settings = data[tostring(target)]['settings']
-  local text = "____________________\n⚙SuperGroup settings⚙:⬇️\n➖➖➖➖➖➖➖➖➖➖\n>Lock links : "..settings.lock_link.."\n>Lock contacts: "..settings.lock_contacts.."\n>Lock flood: "..settings.flood.."\n>Flood sensitivity : "..NUM_MSG_MAX.."\n>Lock spam: "..settings.lock_spam.."\n>Lock Arabic: "..settings.lock_arabic.."\n>Lock Member: "..settings.lock_member.."\n>Lock RTL: "..settings.lock_rtl.."\n>Lock Tgservice: "..settings.lock_tgservice.."\n>Lock sticker: "..settings.lock_sticker.."\n>Lock tag(#): "..settings.tag.."\n>Lock emoji: "..settings.emoji.."\n>Lock english: "..settings.english.."\n>Lock fwd(forward): "..settings.fwd.."\n>Lock reply: "..settings.reply.."\n>Lock join: "..settings.join.."\n>Lock username(@): "..settings.username.."\n>Lock media: "..settings.media.."\n>Lock fosh: "..settings.fosh.."\n>Lock leave: "..settings.leave.."\n>Lock bots: "..bots_protection.."\n>Lock operator: "..settings.operator.."\n〰〰〰〰〰〰〰〰\n⚙Easy Sweet&Faster Switch⚙:⬇️\n〰〰〰〰〰〰〰〰\n>Switch Model Etehad: "..settings.etehad.."\n>Lock all: "..settings.all.."\n➖➖➖➖➖➖➖➖➖➖\nℹ️About Groupℹ️:⬇️\n➖➖➖➖➖➖➖➖➖➖\n>group type: "..gp_type.."\n>Public: "..settings.public.."\n>Strict settings: "..settings.strict.."\n➰➰➰➰➰➰➰➰➰\n>>bot version : v2.9<<\n>>>👑GROUP SHIELD👑<<<\n>>@GROUP_SHIELD_TM<<"
+  local text = "____________________\n⚙تنظیمات گروه⚙:⬇️\n➖➖➖➖➖➖➖➖➖➖\n>🔒لینک : "..settings.lock_link.."\n>🔒 شماره: "..settings.lock_contacts.."\n>🔒 فلوت: "..settings.flood.."\n>سطح فلوت : "..NUM_MSG_MAX.."\n>🔒 اسپم: "..settings.lock_spam.."\n>🔒 عربی: "..settings.lock_arabic.."\n>🔒 ممبر: "..settings.lock_member.."\n>🔒 آر تی ال: "..settings.lock_rtl.."\n>🔒 تگ سرور: "..settings.lock_tgservice.."\n>🔒 استیکر: "..settings.lock_sticker.."\n>🔒 تگ(#): "..settings.tag.."\n>🔒 شکلک: "..settings.emoji.."\n>🔒 اینگلیسی : "..settings.english.."\n>🔒 فروارد: "..settings.fwd.."\n>🔒 ریپلی: "..settings.reply.."\n>🔒 جواین: "..settings.join.."\n>🔒 ایدی (@): "..settings.username.."\n>🔒 رسانه : "..settings.media.."\n>🔒 فحش: "..settings.fosh.."\n>🔒 لفت دادن: "..settings.leave.."\n>🔒 ادد کردن ربات: "..bots_protection.."\n>🔒 اپراتور: "..settings.operator.."\n〰〰〰〰〰〰〰〰\n⚙آسان شیرین و سوئیچ سریع تر⚙:⬇️\n〰〰〰〰〰〰〰〰\n>💹تغییر مدل اتحاد 💹: "..settings.etehad.."\n>🔒 همه : "..settings.all.."\n➖➖➖➖➖➖➖➖➖➖\nℹ️درباره گروهℹ️:⬇️\n➖➖➖➖➖➖➖➖➖➖\n>نوع گروه📃: "..gp_type.."\n>گروه عمومیه؟: "..settings.public.."\n>⚙تنظیمات سخت گیرانه⚙: "..settings.strict.."\n➰➰➰➰➰➰➰➰➰\n>>نسخه ربات  : v2.9<<\n>>>👑GROUP SHIELD👑<<<\n>>@GROUP_SHIELD_TM<<"
   return text
 end
 
@@ -1594,7 +1594,7 @@ local function run(msg, matches)
 				return
 			end
 			if is_super_group(msg) then
-				return reply_msg(msg.id, 'در حال حاضر ربات در گروه فعال استٍ✅', ok_cb, false)
+				return reply_msg(msg.id, 'در ح��ل حاضر ربات در گروه فعال استٍ✅', ok_cb, false)
 			end
 			print("SuperGroup "..msg.to.print_name.."("..msg.to.id..") added")
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] added SuperGroup")
@@ -2695,7 +2695,7 @@ end
 
 return {
   patterns = {
-	"^[#!/]([Aa]dd)$",
+	"^[#!/]([Aa]dd,)$",
 	"^[#!/]([Rr]em)$",
 	"^[#!/]([Mm]ove) (.*)$",
 	"^[#!/]([Gg]pinfo)$",
