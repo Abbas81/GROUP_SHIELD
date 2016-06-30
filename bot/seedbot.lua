@@ -297,185 +297,193 @@ Siyanew
 Topkecleon
 Vamptacus
 
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+Our Team :
+BOT: @GROUP_SHIELD
+CHANNEL: @GROUP_SHIELD_TM
 ]],
     help_text_realm = [[
-Realm Commands:
+** دستورات مديريتي سوپر گروه **
 
-!creategroup [name]
-Create a group
 
-!createrealm [name]
-Create a realm
 
-!setname [name]
-Set realm name
+/settings : نمايش تنظيمات گروه
 
-!setabout [group_id] [text]
-Set a group's about text
+/stats : نمايش تعداد پيام هاي ارسالي توسط افراد در سوپر گروه
 
-!setrules [grupo_id] [text]
-Set a group's rules
+/setrules <rules> : ايجاذ قوانين براي سوپر گروه
 
-!lock [grupo_id] [setting]
-Lock a group's setting
+/newlink : ساخت لينک جديد
 
-!unlock [grupo_id] [setting]
-Unock a group's setting
+/setlink : ثبت لينک جديد 
 
-!wholist
-Get a list of members in group/realm
+/link : لينک سوپر گروه 
 
-!who
-Get a file of members in group/realm
+/linkpv : شما pv ارسال لينک سوپر گروه به 
 
-!type
-Get group type
+/setname : تغيير نام سوپر گروه 
 
-!kill chat [grupo_id]
-Kick all memebers and delete group
+/setphoto : تغيير عکس سوپر گروه 
 
-!kill realm [realm_id]
-Kick all members and delete realm
 
-!addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+______________________________
 
-!removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+** دستورات مديريتي سوپر گروه **
 
-!list groups
-Get a list of all groups
+/lock|unlock tag :  قفل/ ازاد کردن استفاده از تگ 
 
-!list realms
-Get a list of all realms
+/lock|unlock spam : قفل/ازاد کردن متن هاي طولاني
 
-!log
-Get a logfile of current group or realm
+/lock|unlock member : قفل/ازاد کردن اعضا
 
-!broadcast [text]
-!broadcast Hello !
-Send text to all groups
-» Only sudo users can run this command
+/lock|unlock link : فعال/ غيرفعال کردن ضد تبليغ
 
-!bc [group_id] [text]
-!bc 123456789 Hello !
-This command will send text to [group_id]
+/lock|unlock bots : قفل / ازاد کردن ورود ربات ها 
 
-» U can use both "/" and "!" 
+/lock|unlock strict : تنظيمات سخت گيرانه 
 
-» Only mods, owner and admin can add bots in group
+/lock|unlock leave : فعال / غير فعال کردن لفت دادن 
 
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+/lock|unlock emoji : فعال / غير فعال کردن ايموجي 
 
-» Only owner can use res,setowner,promote,demote and log commands
+/lock|unlock sticker : فعال / غير فعال کردن استيکر 
 
+/lock|unlock english : فعال / غير فعال کردن حروف اينگيلسي 
+
+/lock|unlock fwd(forward): فعال / غير فعال کردن پيام هاي فروادي
+
+/lock|unlock RTL : فعال / غيرفعال کردن متن هاي طولاني
+
+/lock|unlock join : فعال / غير فعال کردن عضو شدن در سوپر گروه 
+
+/lock|unlock username(@): فعال / غير فعال کردن يوزرنيم 
+
+/lock|unlock media : فعال / غيرفعال کردن مديا 
+
+/lock|unlock fosh : فعال / غير فعال کردن فحاشي 
+
+/lock|unlock operator : فعال / غير فعال کردن اپراتور 
+______________________________________
+
+
+** دستورات مديريتي سوپر گروه **
+
+
+/block : @user  کيک کردن شخص از گروه 
+
+/ban : @user اخراج کردن شخص از گروه 
+
+/banlist : ليست کاربران اخراج شده از گروه
+
+/unban :@user خارج کردن از بن
+
+/silentlist :شده  Mute  ليست افراد چ
+
+/silent <id> : کردن افراد Mute|Unmute 
+
+/promote : اضافه کردن مدير 
+
+/demote : حذف کردن مدير 
+
+/setadmin : اضافه کردن سرپرست 
+
+/demoteadmin : حذف کردن سرپرست 
+
+_________________________________________
+SUDO : @A_B_8_A_S
+
+CHANNEL: @GROUP_SHIELD_TM
 ]],
     help_text = [[
-Commands list :
+** دستورات مديريتي سوپر گروه **
 
-!kick [username|id]
-You can also do it by reply
 
-!ban [ username|id]
-You can also do it by reply
 
-!unban [id]
-You can also do it by reply
+/settings : نمايش تنظيمات گروه
 
-!who
-Members list
+/stats : نمايش تعداد پيام هاي ارسالي توسط افراد در سوپر گروه
 
-!modlist
-Moderators list
+/setrules <rules> : ايجاذ قوانين براي سوپر گروه
 
-!promote [username]
-Promote someone
+/newlink : ساخت لينک جديد
 
-!demote [username]
-Demote someone
+/setlink : ثبت لينک جديد 
 
-!kickme
-Will kick user
+/link : لينک سوپر گروه 
 
-!about
-Group description
+/linkpv : شما pv ارسال لينک سوپر گروه به 
 
-!setphoto
-Set and locks group photo
+/setname : تغيير نام سوپر گروه 
 
-!setname [name]
-Set group name
+/setphoto : تغيير عکس سوپر گروه 
 
-!rules
-Group rules
 
-!id
-Return group id or user id
+______________________________
 
-!help
-Get commands list
+** دستورات مديريتي سوپر گروه **
 
-!lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+/lock|unlock tag :  قفل/ ازاد کردن استفاده از تگ 
 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+/lock|unlock spam : قفل/ازاد کردن متن هاي طولاني
 
-!set rules [text]
-Set [text] as rules
+/lock|unlock member : قفل/ازاد کردن اعضا
 
-!set about [text]
-Set [text] as about
+/lock|unlock link : فعال/ غيرفعال کردن ضد تبليغ
 
-!settings
-Returns group settings
+/lock|unlock bots : قفل / ازاد کردن ورود ربات ها 
 
-!newlink
-Create/revoke your group link
+/lock|unlock strict : تنظيمات سخت گيرانه 
 
-!link
-Returns group link
+/lock|unlock leave : فعال / غير فعال کردن لفت دادن 
 
-!owner
-Returns group owner id
+/lock|unlock emoji : فعال / غير فعال کردن ايموجي 
 
-!setowner [id]
-Will set id as owner
+/lock|unlock sticker : فعال / غير فعال کردن استيکر 
 
-!setflood [value]
-Set [value] as flood sensitivity
+/lock|unlock english : فعال / غير فعال کردن حروف اينگيلسي 
 
-!stats
-Simple message statistics
+/lock|unlock fwd(forward): فعال / غير فعال کردن پيام هاي فروادي
 
-!save [value] [text]
-Save [text] as [value]
+/lock|unlock RTL : فعال / غيرفعال کردن متن هاي طولاني
 
-!get [value]
-Returns text of [value]
+/lock|unlock join : فعال / غير فعال کردن عضو شدن در سوپر گروه 
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+/lock|unlock username(@): فعال / غير فعال کردن يوزرنيم 
 
-!res [username]
-Returns user id
+/lock|unlock media : فعال / غيرفعال کردن مديا 
 
-!log
-Will return group logs
+/lock|unlock fosh : فعال / غير فعال کردن فحاشي 
 
-!banlist
-Will return group ban list
+/lock|unlock operator : فعال / غير فعال کردن اپراتور 
+______________________________________
 
-» U can use both "/" and "!" 
 
-» Only mods, owner and admin can add bots in group
+** دستورات مديريتي سوپر گروه **
 
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
-» Only owner can use res,setowner,promote,demote and log commands
+/block : @user  کيک کردن شخص از گروه 
+
+/ban : @user اخراج کردن شخص از گروه 
+
+/banlist : ليست کاربران اخراج شده از گروه
+
+/unban :@user خارج کردن از بن
+
+/silentlist :شده  Mute  ليست افراد چ
+
+/silent <id> : کردن افراد Mute|Unmute 
+
+/promote : اضافه کردن مدير 
+
+/demote : حذف کردن مدير 
+
+/setadmin : اضافه کردن سرپرست 
+
+/demoteadmin : حذف کردن سرپرست 
+
+_________________________________________
+SUDO : @A_B_8_A_S
+
+CHANNEL: @GROUP_SHIELD_TM
 
 ]]
   }
