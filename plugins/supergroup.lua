@@ -947,87 +947,87 @@ function show_supergroup_settingsmod(msg, target)
    	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['public'] then
-			data[tostring(target)]['settings']['public'] = '🔓'
+			data[tostring(target)]['settings']['public'] = 'no'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['lock_rtl'] then
-			data[tostring(target)]['settings']['lock_rtl'] = '🔓'
+			data[tostring(target)]['settings']['lock_rtl'] = 'no'
 		end
         end
       if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['lock_tgservice'] then
-			data[tostring(target)]['settings']['lock_tgservice'] = '🔓'
+			data[tostring(target)]['settings']['lock_tgservice'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['tag'] then
-			data[tostring(target)]['settings']['tag'] = '🔓'
+			data[tostring(target)]['settings']['tag'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['emoji'] then
-			data[tostring(target)]['settings']['emoji'] = '🔓'
+			data[tostring(target)]['settings']['emoji'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['english'] then
-			data[tostring(target)]['settings']['english'] = '🔓'
+			data[tostring(target)]['settings']['english'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['fwd'] then
-			data[tostring(target)]['settings']['fwd'] = '🔓'
+			data[tostring(target)]['settings']['fwd'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['reply'] then
-			data[tostring(target)]['settings']['reply'] = '🔓'
+			data[tostring(target)]['settings']['reply'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['join'] then
-			data[tostring(target)]['settings']['join'] = '🔓'
+			data[tostring(target)]['settings']['join'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['fosh'] then
-			data[tostring(target)]['settings']['fosh'] = '🔓'
+			data[tostring(target)]['settings']['fosh'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['username'] then
-			data[tostring(target)]['settings']['username'] = '🔓'
+			data[tostring(target)]['settings']['username'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['media'] then
-			data[tostring(target)]['settings']['media'] = '🔓'
+			data[tostring(target)]['settings']['media'] = 'no'
 		end
 	end
 	  if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['leave'] then
-			data[tostring(target)]['settings']['leave'] = '🔓'
+			data[tostring(target)]['settings']['leave'] = 'no'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['lock_member'] then
-			data[tostring(target)]['settings']['lock_member'] = '🔓'
+			data[tostring(target)]['settings']['lock_member'] = 'no'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['all'] then
-			data[tostring(target)]['settings']['all'] = '🔓'
+			data[tostring(target)]['settings']['all'] = 'no'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['operator'] then
-			data[tostring(target)]['settings']['operator'] = '🔓'
+			data[tostring(target)]['settings']['operator'] = 'no'
 		end
 	end
 	if data[tostring(target)]['settings'] then
 		if not data[tostring(target)]['settings']['etehad'] then
-			data[tostring(target)]['settings']['etehad'] = '🔓'
+			data[tostring(target)]['settings']['etehad'] = 'no'
 		end
 	end
   local gp_type = data[tostring(msg.to.id)]['group_type']
@@ -1594,7 +1594,7 @@ local function run(msg, matches)
 				return
 			end
 			if is_super_group(msg) then
-				return reply_msg(msg.id, 'در ح��ل حاضر ربات در گروه فعال استٍ✅', ok_cb, false)
+				return reply_msg(msg.id, 'در حال حاضر ربات در گروه فعال استٍ✅', ok_cb, false)
 			end
 			print("SuperGroup "..msg.to.print_name.."("..msg.to.id..") added")
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] added SuperGroup")
@@ -2695,7 +2695,7 @@ end
 
 return {
   patterns = {
-	"^[#!/]([Aa]dd,)$",
+	"^[#!/]([Aa]dd)$",
 	"^[#!/]([Rr]em)$",
 	"^[#!/]([Mm]ove) (.*)$",
 	"^[#!/]([Gg]pinfo)$",
